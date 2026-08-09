@@ -1,0 +1,99 @@
+.polaroid-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: center;
+    perspective: 1000px;
+  }
+  .polaroid{
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    position: relative;
+  }
+  .polaroid::before{
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-4deg);
+    width: 56px;
+    height: 22px;
+    background: repeating-linear-gradient(135deg, var(--gold), var(--gold) 6px, #e8bd7a 6px, #e8bd7a 12px);
+    opacity: 0.85;
+    z-index: 4;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  }
+  .polaroid:nth-child(3n)::before{ background: repeating-linear-gradient(135deg, var(--rose), var(--rose) 6px, var(--rose-deep) 6px, var(--rose-deep) 12px); }
+  .polaroid:nth-child(3n+1)::before{ background: repeating-linear-gradient(135deg, var(--moss), var(--moss) 6px, #a9bfa0 6px, #a9bfa0 12px); }
+  .polaroid-inner{
+    position: relative;
+    width: 100%; height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .polaroid.flipped .polaroid-inner{ transform: rotateY(180deg); }
+  .polaroid-face{
+    position: absolute; inset:0;
+    backface-visibility: hidden;
+    background: var(--cream);
+    border-radius: 4px;
+    box-shadow: 0 10px 25px var(--shadow);
+    padding: 12px 12px 30px 12px;
+    display:flex; flex-direction:column;
+  }
+  .polaroid:nth-child(odd){ transform: rotate(-4deg); }
+  .polaroid:nth-child(even){ transform: rotate(3deg); }
+  .ph-photo{
+    flex:1;
+    border-radius: 2px;
+    background: linear-gradient(135deg, var(--blush-deep), var(--rose));
+    display:flex; align-items:center; justify-content:center;
+    font-size: 2rem;
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+  }
+  .polaroid-face figcaption{
+    font-family:'Caveat', cursive;
+    font-size: 1rem;
+    text-align:center;
+    margin-top: 6px;
+    color: var(--plum);
+  }
+  .polaroid-back{
+    transform: rotateY(180deg);
+    background: var(--rose-deep);
+    color: var(--cream);
+    align-items:center; justify-content:center; text-align:center;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  
+
+/* ---------- Then vs Now slider ---------- */
+
+  .compare-wrap{
+    margin: 60px auto 0;
+    max-width: 500px;
+    text-align: center;
+  }
+  .compare-slider{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4/3;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: 0 15px 35px var(--shadow);
+  }
+  .compare-img{
+    position: absolute; inset:0;
+    overflow: hidden;
+  }
+  .compare-img.now{ clip-path: inset(0 0 0 50%); }
+  input[type=range].compare-range{
+    width: 100%;
+    margin-top: 14px;
+    accent-color: var(--rose-deep);
+  }

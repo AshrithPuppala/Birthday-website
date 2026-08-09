@@ -1,0 +1,23 @@
+.bucket-list{
+    max-width: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .bucket-item{
+    display:flex;
+    align-items:center;
+    gap: 14px;
+    background: var(--cream);
+    border-radius: 14px;
+    padding: 14px 18px;
+    box-shadow: 0 6px 16px var(--shadow);
+    cursor: pointer;
+  }
+  .bucket-item input[type=checkbox]{
+    width: 20px; height: 20px;
+    accent-color: var(--rose-deep);
+    flex-shrink: 0;
+  }
+  .bucket-item.checked span{ text-decoration: line-through; opacity: 0.5; }

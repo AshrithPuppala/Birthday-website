@@ -1,0 +1,21 @@
+.joke-bloom{
+    display:flex; flex-direction:column; align-items:center; gap: 18px;
+  }
+  .bloom-btn{
+    font-size: 3rem;
+    background: none; border: none; cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .bloom-btn:hover{ transform: scale(1.15) rotate(8deg); }
+  .joke-card{
+    background: var(--cream);
+    border-radius: var(--radius);
+    padding: 22px 26px;
+    max-width: 420px;
+    text-align:center;
+    box-shadow: 0 10px 25px var(--shadow);
+    font-family: 'Caveat', cursive;
+    font-size: 1.3rem;
+    color: var(--plum);
+    min-height: 40px;
+  }

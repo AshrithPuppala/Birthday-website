@@ -1,0 +1,17 @@
+.envelope-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+    gap: 20px;
+  }
+  .envelope{
+    background: var(--cream);
+    border: 2px dashed var(--rose);
+    border-radius: 14px;
+    padding: 24px 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.25s ease, background 0.25s ease;
+  }
+  .envelope:hover{ transform: translateY(-5px); background: var(--blush-deep); }
+  .envelope .seal{ font-size: 1.8rem; display:block; margin-bottom: 8px;}
+  .envelope span.label{ font-family:'Caveat', cursive; font-size: 1.15rem; }

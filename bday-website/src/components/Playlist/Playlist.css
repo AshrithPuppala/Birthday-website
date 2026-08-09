@@ -1,0 +1,2 @@
+.playlist-wrap{ text-align:center; }
+  .playlist-wrap iframe{ border-radius: var(--radius); box-shadow: 0 10px 25px var(--shadow); }

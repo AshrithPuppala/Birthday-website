@@ -1,0 +1,113 @@
+:root{
+    --blush: #fdf1f4;
+    --blush-deep: #f7dbe4;
+    --rose: #e08bab;
+    --rose-deep: #c65f88;
+    --plum: #5a2f43;
+    --moss: #7f9473;
+    --gold: #d8a657;
+    --cream: #fffaf7;
+    --shadow: rgba(90,47,67,0.15);
+    --radius: 22px;
+  }
+
+  *{ box-sizing: border-box; }
+
+  html{ scroll-behavior: smooth; }
+
+  body{
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+    color: var(--plum);
+    background-color: var(--blush);
+    background-image:
+      radial-gradient(circle at 10% 8%, rgba(224,139,171,0.16) 0, transparent 45%),
+      radial-gradient(circle at 90% 18%, rgba(216,166,87,0.14) 0, transparent 40%),
+      radial-gradient(circle at 20% 85%, rgba(127,148,115,0.12) 0, transparent 42%),
+      radial-gradient(circle at 88% 90%, rgba(224,139,171,0.16) 0, transparent 45%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'%3E%3Cg fill='%23e08bab' fill-opacity='0.07'%3E%3Cpath d='M70 55c4-10 16-10 16 0 0 8-8 14-16 20-8-6-16-12-16-20 0-10 12-10 16 0z'/%3E%3Ccircle cx='20' cy='110' r='4'/%3E%3Ccircle cx='115' cy='30' r='3'/%3E%3Ccircle cx='40' cy='20' r='2.5'/%3E%3Ccircle cx='100' cy='115' r='3.5'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+
+  h1,h2,h3{
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    margin: 0 0 0.4em 0;
+  }
+
+  .script{ font-family: 'Caveat', cursive; }
+  .chunky{ font-family: 'Fredoka', sans-serif; }
+
+  section{
+    position: relative;
+    padding: 90px 20px 70px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  }
+
+  a:focus-visible, button:focus-visible, input:focus-visible{
+    outline: 3px solid var(--rose-deep);
+    outline-offset: 3px;
+  }
+
+  
+/* ---------- Gate shake animation (injected via JS in the original) ---------- */
+@keyframes shake{ 0%,100%{transform:translateX(0);} 25%{transform:translateX(-8px);} 75%{transform:translateX(8px);} }
+
+/* ---------- Shared buttons ---------- */
+
+  .btn{
+    display: inline-block;
+    border: none;
+    background: linear-gradient(135deg, var(--rose), var(--rose-deep));
+    color: var(--cream);
+    padding: 13px 30px;
+    border-radius: 999px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 8px 20px rgba(198,95,136,0.35), inset 0 -3px 0 rgba(0,0,0,0.12);
+  }
+  .btn:hover{ transform: translateY(-2px) scale(1.03) rotate(-1deg); }
+  .btn:active{ transform: translateY(1px) scale(0.98); }
+
+/* ---------- Section headers ---------- */
+
+  .section-head{ text-align:center; margin-bottom: 55px; }
+  .section-head .tag{
+    font-family:'Caveat', cursive;
+    font-size: 1.3rem;
+    color: var(--moss);
+  }
+  .section-head h2{
+    font-size: clamp(1.8rem, 5vw, 2.6rem);
+    color: var(--rose-deep);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+  }
+  .section-head h2::before,
+  .section-head h2::after{
+    content: "🌸";
+    font-size: 0.55em;
+    opacity: 0.7;
+    animation: petal-spin 6s linear infinite;
+  }
+  .section-head h2::after{ animation-direction: reverse; }
+  @keyframes petal-spin{ from{ transform: rotate(0deg);} to{ transform: rotate(360deg);} }
+  .section-head .squiggle{
+    display:block;
+    width: 90px;
+    height: 14px;
+    margin: 10px auto 0;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='14' viewBox='0 0 90 14'%3E%3Cpath d='M2 8c6-10 12 10 18 0s12-10 18 0 12 10 18 0 12-10 18 0 12 10 14 2' stroke='%23e08bab' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center / contain;
+  }

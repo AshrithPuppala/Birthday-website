@@ -1,0 +1,30 @@
+.mark-canvas{
+    position: relative;
+    height: 260px;
+    border-radius: var(--radius);
+    border: 3px dashed var(--rose);
+    background: var(--cream);
+    overflow: hidden;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .mark-hint{
+    font-family:'Caveat', cursive;
+    font-size: 1.3rem;
+    color: var(--rose-deep);
+    opacity: 0.55;
+    pointer-events: none;
+  }
+  .mark-sticker{
+    position: absolute;
+    font-size: 1.9rem;
+    transform: translate(-50%,-50%) scale(0.5);
+    animation: mark-pop 2.2s ease forwards;
+    pointer-events: none;
+  }
+  @keyframes mark-pop{
+    0%{ transform: translate(-50%,-50%) scale(0.3) rotate(0deg); opacity: 0; }
+    15%{ transform: translate(-50%,-50%) scale(1.3) rotate(10deg); opacity: 1; }
+    30%{ transform: translate(-50%,-50%) scale(1) rotate(-6deg); opacity: 1; }
+    100%{ transform: translate(-50%,-75%) scale(1.05) rotate(4deg); opacity: 0; }
+  }

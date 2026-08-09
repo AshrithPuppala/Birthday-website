@@ -1,0 +1,72 @@
+#treasureToggle{
+    position: fixed;
+    bottom: 22px; right: 22px;
+    z-index: 90;
+    background: var(--rose-deep);
+    color: var(--cream);
+    border:none;
+    border-radius: 999px;
+    padding: 12px 18px;
+    font-family:'Nunito', sans-serif;
+    font-weight:700;
+    font-size: 0.85rem;
+    cursor:pointer;
+    box-shadow: 0 10px 25px var(--shadow);
+  }
+  #treasurePanel{
+    position: fixed;
+    bottom: 78px; right: 22px;
+    z-index: 90;
+    width: 280px;
+    max-height: 60vh;
+    overflow-y:auto;
+    background: var(--cream);
+    border-radius: var(--radius);
+    padding: 18px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+    transform: translateY(10px) scale(0.95);
+    opacity:0; visibility:hidden;
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+  }
+  #treasurePanel.open{ opacity:1; visibility:visible; transform: translateY(0) scale(1); }
+  #treasurePanel h4{ margin:0 0 10px 0; font-family:'Fraunces', serif; color: var(--rose-deep); }
+  .th-progress{ height:6px; background: var(--blush-deep); border-radius:999px; margin-bottom:12px; overflow:hidden; }
+  .th-progress-bar{ height:100%; background: var(--moss); width:0%; transition: width 0.4s ease; }
+  .th-clue{
+    font-size: 0.85rem;
+    padding: 8px 0;
+    border-bottom: 1px dashed var(--blush-deep);
+    display:flex; gap:8px; align-items:flex-start;
+    cursor:pointer;
+  }
+  .th-clue:last-child{ border-bottom:none; }
+  .th-clue.done{ opacity: 0.55; text-decoration: line-through; }
+
+  
+
+/* ---------- Hidden butterfly hunt ---------- */
+
+  .secret-spot{
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    padding: 6px;
+    cursor: pointer;
+    opacity: 0.28;
+    color: var(--rose);
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    animation: secret-pulse 3.5s ease-in-out infinite;
+  }
+  @keyframes secret-pulse{ 0%,100%{ opacity: 0.2; } 50%{ opacity: 0.42; } }
+  .secret-spot.found{
+    opacity: 1;
+    animation: secret-found 0.6s ease;
+    pointer-events: none;
+  }
+  @keyframes secret-found{
+    0%{ transform: translate(-50%,-50%) scale(0.6); }
+    60%{ transform: translate(-50%,-50%) scale(1.5); }
+    100%{ transform: translate(-50%,-50%) scale(1); }
+  }

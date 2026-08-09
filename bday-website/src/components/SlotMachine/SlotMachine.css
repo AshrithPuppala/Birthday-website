@@ -1,0 +1,19 @@
+.slot-wrap{ text-align:center; }
+  .slot-window{
+    font-size: 3rem;
+    background: var(--cream);
+    border-radius: 16px;
+    padding: 22px;
+    width: 110px;
+    margin: 0 auto 18px;
+    box-shadow: inset 0 0 0 4px var(--blush-deep), 0 10px 25px var(--shadow);
+  }
+  .slot-result{
+    margin-top: 18px;
+    font-family:'Caveat', cursive;
+    font-size: 1.35rem;
+    max-width: 420px;
+    margin-left:auto; margin-right:auto;
+    min-height: 34px;
+    color: var(--plum);
+  }

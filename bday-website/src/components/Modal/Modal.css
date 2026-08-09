@@ -1,0 +1,33 @@
+.modal-overlay{
+    position: fixed; inset:0;
+    background: rgba(90,47,67,0.55);
+    display:flex; align-items:center; justify-content:center;
+    z-index: 200;
+    opacity:0; visibility:hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    padding: 20px;
+  }
+  .modal-overlay.open{ opacity:1; visibility:visible; }
+  .modal-card{
+    background: var(--cream);
+    border-radius: var(--radius);
+    padding: 34px;
+    max-width: 460px;
+    width: 100%;
+    text-align:center;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.3);
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+  }
+  .modal-overlay.open .modal-card{ transform: scale(1); }
+  .modal-card p{ font-family:'Caveat', cursive; font-size: 1.3rem; line-height: 1.5; }
+  .modal-close{
+    margin-top: 14px;
+    background: var(--rose-deep);
+    color: var(--cream);
+    border:none;
+    padding: 8px 22px;
+    border-radius: 999px;
+    cursor:pointer;
+    font-weight:700;
+  }

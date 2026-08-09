@@ -1,0 +1,28 @@
+#finale{ text-align:center; padding-bottom: 140px; }
+  .gift-btn{
+    font-size: 3.2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    animation: pulse-glow 2.4s ease-in-out infinite;
+  }
+  @keyframes pulse-glow{
+    0%,100%{ filter: drop-shadow(0 0 6px var(--gold)); transform: scale(1); }
+    50%{ filter: drop-shadow(0 0 20px var(--gold)); transform: scale(1.08); }
+  }
+  #gift-content{
+    max-width: 480px;
+    margin: 26px auto 0;
+    background: var(--cream);
+    border-radius: var(--radius);
+    padding: 30px;
+    box-shadow: 0 15px 35px var(--shadow);
+    display:none;
+  }
+  footer{
+    text-align:center;
+    padding: 30px;
+    font-family:'Caveat', cursive;
+    font-size: 1.1rem;
+    color: var(--moss);
+  }

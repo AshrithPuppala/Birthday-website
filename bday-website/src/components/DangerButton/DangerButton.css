@@ -1,0 +1,34 @@
+#danger-section{ text-align:center; padding-top:20px; padding-bottom:60px; }
+  .danger-wrap{
+    position: relative;
+    height: 220px;
+    max-width: 420px;
+    margin: 0 auto;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .danger-btn{
+    position: absolute;
+    width: 150px; height: 150px;
+    border-radius: 50%;
+    border: 6px solid #7a1f1f;
+    background: radial-gradient(circle at 35% 30%, #ff6b6b, #c62828 70%);
+    color: #fff;
+    font-family:'Fraunces', serif;
+    font-weight:700;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 10px 0 #7a1f1f, 0 15px 30px rgba(0,0,0,0.3);
+    transition: top 0.35s ease, left 0.35s ease, transform 0.15s ease;
+    animation: danger-pulse 1.6s ease-in-out infinite;
+  }
+  .danger-btn:active{ transform: translateY(6px); box-shadow: 0 4px 0 #7a1f1f, 0 8px 18px rgba(0,0,0,0.3); }
+  @keyframes danger-pulse{
+    0%,100%{ box-shadow: 0 10px 0 #7a1f1f, 0 15px 30px rgba(0,0,0,0.3), 0 0 0 0 rgba(198,40,40,0.5);}
+    50%{ box-shadow: 0 10px 0 #7a1f1f, 0 15px 30px rgba(0,0,0,0.3), 0 0 0 18px rgba(198,40,40,0);}
+  }
+  .meme-burst{ position: fixed; inset:0; pointer-events:none; z-index: 150; overflow:hidden; }
+  .meme-emoji{ position:absolute; font-size: 2rem; animation: meme-fly 1.8s ease-out forwards; }
+  @keyframes meme-fly{
+    0%{ transform: translate(0,0) scale(0.4) rotate(0deg); opacity:1; }
+    100%{ transform: translate(var(--tx), var(--ty)) scale(1.4) rotate(var(--rot)); opacity:0; }
+  }
