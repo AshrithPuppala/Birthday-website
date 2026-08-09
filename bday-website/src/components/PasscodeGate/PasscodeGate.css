@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle at 50% 30%, var(--blush-deep), var(--blush) 70%);
+    background: rgba(8,59,69,0.28);
     transition: opacity 0.9s ease, visibility 0.9s ease;
   }
   #gate.hidden{
@@ -14,14 +14,16 @@
     pointer-events: none;
   }
   .gate-card{
-    background: var(--cream);
+    background: rgba(255,253,248,0.62);
+    backdrop-filter: blur(18px) saturate(1.3);
+    -webkit-backdrop-filter: blur(18px) saturate(1.3);
     border-radius: var(--radius);
     padding: 48px 36px;
     text-align: center;
     max-width: 380px;
     width: 90%;
-    box-shadow: 0 20px 50px var(--shadow);
-    border: 3px dashed var(--rose);
+    box-shadow: 0 20px 50px rgba(8,59,69,0.35);
+    border: 1px solid rgba(255,255,255,0.55);
     position: relative;
   }
   .gate-card .flower-icon{ font-size: 40px; display:block; margin-bottom: 10px; animation: bob 2.4s ease-in-out infinite; }
@@ -31,12 +33,12 @@
     width: 100%;
     padding: 12px 14px;
     border-radius: 999px;
-    border: 2px solid var(--blush-deep);
+    border: 1px solid rgba(21,122,158,0.35);
     text-align: center;
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
     margin-bottom: 14px;
-    background: var(--blush);
+    background: rgba(255,255,255,0.75);
     color: var(--plum);
   }
   #gate-error{

@@ -1,14 +1,14 @@
 // Timeline entries - replace with your own memories
 export default [
   {
-    "date": "23-06-23",
+    "date": "[Date 1]",
     "title": "How We Met",
-    "text": "Transcendence 2023"
+    "text": "[Describe the first time you met]"
   },
   {
-    "date": "31-06-23",
+    "date": "[Date 2]",
     "title": "First Hangout",
-    "text": "Oppenheimer - Mantri Mall"
+    "text": "[Describe a memorable early hangout]"
   },
   {
     "date": "[Date 3]",
@@ -16,9 +16,9 @@ export default [
     "text": "[The story behind an inside joke]"
   },
   {
-    "date": "23-04-24",
+    "date": "[Date 4]",
     "title": "A Fun Trip",
-    "text": "Goa 2024"
+    "text": "[Describe a trip or outing you took together]"
   },
   {
     "date": "[Date 5]",
