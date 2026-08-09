@@ -11,9 +11,14 @@ export default [
     "text": "[Describe a memorable early hangout]"
   },
   {
-    "date": "[Date 3]",
+    "date": "24/08/23",
     "title": "An Inside Joke Begins",
-    "text": "[The story behind an inside joke]"
+    "text": "LTC - Egnitus Internal"
+  },
+  {
+    "date": "01/09/23",
+    "title": "The OG Spectrometer",
+    "text": "Acoustic Levitation"
   },
   {
     "date": "[Date 4]",
@@ -21,19 +26,14 @@ export default [
     "text": "[Describe a trip or outing you took together]"
   },
   {
-    "date": "[Date 5]",
-    "title": "A Milestone",
-    "text": "[A big moment you shared]"
+    "date": "20/05/24",
+    "title": "The GOATED group",
+    "text": "LaNaSrFm"
   },
   {
-    "date": "[Date 6]",
-    "title": "A Silly Memory",
-    "text": "[Something that always makes you both laugh]"
-  },
-  {
-    "date": "[Date 7]",
+    "date": "02/08/24",
     "title": "A Proud Moment",
-    "text": "[Something you're proud of them for]"
+    "text": "Arcanum 2024"
   },
   {
     "date": "[Date 8]",
