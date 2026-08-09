@@ -1,7 +1,7 @@
 /**
  * Small helpers for anything that's deliberately hidden in plain sight -
- * currently just the six 🦋 secret spots scattered through the page for the
- * butterfly hunt. Kept separate from the components so the "how do we hide
+ * currently just the six 🐚 secret spots scattered through the page for the
+ * shell hunt. Kept separate from the components so the "how do we hide
  * this" logic lives in one place if you want to add more hidden mechanics
  * later (a stego-style hidden flag in an image, a console-only clue, etc).
  */

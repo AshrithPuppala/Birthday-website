@@ -5,7 +5,7 @@ import { fireConfetti } from '../../utils/confetti';
 const TreasureHuntContext = createContext(null);
 
 /**
- * Shared state for the hidden butterfly hunt (six 🦋 buttons tucked into
+ * Shared state for the hidden shell hunt (six 🐚 buttons tucked into
  * different sections of the page). Wrap the whole app in <TreasureHuntProvider>
  * once, then use <SecretSpot id="s1" /> inside any section and
  * useTreasureHunt() anywhere you need progress (the toggle/panel, the vault).

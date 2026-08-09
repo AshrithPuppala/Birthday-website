@@ -4,7 +4,7 @@ import { percentFound, scrollToSection } from '../../utils/stego';
 import './ButterflyHunt.css';
 
 /**
- * Floating "🦋 Hidden Hunt" toggle + clue panel. Mount this once, anywhere,
+ * Floating "🐚 Hidden Hunt" toggle + clue panel. Mount this once, anywhere,
  * near the bottom of <App/> - it's positioned fixed so placement in the
  * tree doesn't matter. Pairs with <SecretSpot id="..."/> placed inside the
  * six sections listed in treasureData.
@@ -16,7 +16,7 @@ export default function ButterflyHunt() {
   return (
     <>
       <button id="treasureToggle" onClick={() => setOpen((o) => !o)}>
-        🦋 Hidden Hunt ({foundCount}/{total})
+        🐚 Hidden Hunt ({foundCount}/{total})
       </button>
       <div id="treasurePanel" className={open ? 'open' : ''}>
         <h4>Find it all!</h4>
