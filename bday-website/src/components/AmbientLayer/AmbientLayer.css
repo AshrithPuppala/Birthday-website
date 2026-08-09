@@ -5,32 +5,34 @@
     z-index: 5;
     overflow: hidden;
   }
-  .butterfly{
+  .bubble{
     position: absolute;
-    width: 26px;
-    height: 26px;
+    bottom: -10vh;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.9), rgba(47,168,212,0.15) 70%);
+    border: 1px solid rgba(255,255,255,0.6);
+    box-shadow: inset 0 0 6px rgba(255,255,255,0.5), 0 2px 6px rgba(12,59,82,0.08);
     opacity: 0.85;
-    animation: flutter-up linear infinite, sway ease-in-out infinite;
-    filter: drop-shadow(0 2px 4px var(--shadow));
+    animation: bubble-rise linear infinite, sway ease-in-out infinite;
   }
-  .butterfly svg{ width:100%; height:100%; animation: wing-flap 0.35s ease-in-out infinite alternate; transform-origin: center; }
-  @keyframes wing-flap{ from{ transform: scaleX(1);} to{ transform: scaleX(0.55);} }
-  @keyframes flutter-up{
-    from{ transform: translateY(110vh); }
-    to{ transform: translateY(-10vh); }
+  @keyframes bubble-rise{
+    from{ transform: translateY(0); opacity: 0.85; }
+    92%{ opacity: 0.7; }
+    to{ transform: translateY(-120vh); opacity: 0; }
   }
   @keyframes sway{
     0%,100%{ margin-left: 0px; }
-    50%{ margin-left: 60px; }
+    50%{ margin-left: 40px; }
   }
-  .petal{
+  .beach-drift{
     position:absolute;
     top:-5%;
     font-size: 18px;
-    animation: fall linear infinite;
-    opacity: 0.8;
+    animation: drift-fall linear infinite;
+    opacity: 0.75;
+    filter: drop-shadow(0 2px 3px var(--shadow));
   }
-  @keyframes fall{
+  @keyframes drift-fall{
     from{ transform: translateY(-10vh) rotate(0deg); }
-    to{ transform: translateY(110vh) rotate(360deg); }
+    to{ transform: translateY(110vh) rotate(200deg); }
   }

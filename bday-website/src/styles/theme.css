@@ -1,13 +1,13 @@
 :root{
-    --blush: #fdf1f4;
-    --blush-deep: #f7dbe4;
-    --rose: #e08bab;
-    --rose-deep: #c65f88;
-    --plum: #5a2f43;
-    --moss: #7f9473;
-    --gold: #d8a657;
-    --cream: #fffaf7;
-    --shadow: rgba(90,47,67,0.15);
+    --blush: #eaf7fb;
+    --blush-deep: #d2eef6;
+    --rose: #2fa8d4;
+    --rose-deep: #157a9e;
+    --plum: #0c3b52;
+    --moss: #45c2a6;
+    --gold: #f0b429;
+    --cream: #fffdf8;
+    --shadow: rgba(12,59,82,0.15);
     --radius: 22px;
   }
 
@@ -20,12 +20,6 @@
     font-family: 'Nunito', sans-serif;
     color: var(--plum);
     background-color: var(--blush);
-    background-image:
-      radial-gradient(circle at 10% 8%, rgba(224,139,171,0.16) 0, transparent 45%),
-      radial-gradient(circle at 90% 18%, rgba(216,166,87,0.14) 0, transparent 40%),
-      radial-gradient(circle at 20% 85%, rgba(127,148,115,0.12) 0, transparent 42%),
-      radial-gradient(circle at 88% 90%, rgba(224,139,171,0.16) 0, transparent 45%),
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'%3E%3Cg fill='%23e08bab' fill-opacity='0.07'%3E%3Cpath d='M70 55c4-10 16-10 16 0 0 8-8 14-16 20-8-6-16-12-16-20 0-10 12-10 16 0z'/%3E%3Ccircle cx='20' cy='110' r='4'/%3E%3Ccircle cx='115' cy='30' r='3'/%3E%3Ccircle cx='40' cy='20' r='2.5'/%3E%3Ccircle cx='100' cy='115' r='3.5'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     overflow-x: hidden;
   }
@@ -97,17 +91,17 @@
   }
   .section-head h2::before,
   .section-head h2::after{
-    content: "🌸";
+    content: "🌊";
     font-size: 0.55em;
     opacity: 0.7;
-    animation: petal-spin 6s linear infinite;
+    animation: wave-bob 3s ease-in-out infinite;
   }
-  .section-head h2::after{ animation-direction: reverse; }
-  @keyframes petal-spin{ from{ transform: rotate(0deg);} to{ transform: rotate(360deg);} }
+  .section-head h2::after{ animation-delay: 0.6s; }
+  @keyframes wave-bob{ 0%,100%{ transform: translateY(0) rotate(0deg);} 50%{ transform: translateY(-4px) rotate(-6deg);} }
   .section-head .squiggle{
     display:block;
     width: 90px;
     height: 14px;
     margin: 10px auto 0;
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='14' viewBox='0 0 90 14'%3E%3Cpath d='M2 8c6-10 12 10 18 0s12-10 18 0 12 10 18 0 12-10 18 0 12 10 14 2' stroke='%23e08bab' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center / contain;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='14' viewBox='0 0 90 14'%3E%3Cpath d='M2 8c6-10 12 10 18 0s12-10 18 0 12 10 18 0 12-10 18 0 12 10 14 2' stroke='%232fa8d4' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center / contain;
   }

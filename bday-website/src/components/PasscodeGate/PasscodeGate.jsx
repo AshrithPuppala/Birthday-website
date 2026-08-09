@@ -35,7 +35,7 @@ export default function PasscodeGate({ unlocked, onUnlock }) {
         style={shake ? { animation: 'shake 0.4s' } : undefined}
         onAnimationEnd={() => setShake(false)}
       >
-        <span className="flower-icon">&#127800;</span>
+        <span className="flower-icon">&#127754;</span>
         <h1>A secret is waiting</h1>
         <p>
           Enter [the passcode hint - e.g. a date, place, or inside joke] to unlock{' '}

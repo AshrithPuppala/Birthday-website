@@ -48,7 +48,7 @@
     transition: transform 0.15s ease, background 0.2s ease;
   }
   .game-tile:hover{ transform: scale(1.06); }
-  .game-tile.wrong{ animation: tile-shake 0.35s ease; background: #f3d3d3; }
+  .game-tile.wrong{ animation: tile-shake 0.35s ease; background: #d6ecf5; }
   @keyframes tile-shake{
     0%,100%{ transform: translateX(0); }
     25%{ transform: translateX(-4px); }
@@ -93,13 +93,13 @@
     border-radius: 2px;
   }
   .wall-tile:nth-child(6n+1){ background: linear-gradient(135deg, var(--rose), var(--rose-deep)); }
-  .wall-tile:nth-child(6n+2){ background: linear-gradient(135deg, var(--gold), #e8bd7a); }
-  .wall-tile:nth-child(6n+3){ background: linear-gradient(135deg, var(--moss), #a9bfa0); }
+  .wall-tile:nth-child(6n+2){ background: linear-gradient(135deg, var(--gold), #f5cc6b); }
+  .wall-tile:nth-child(6n+3){ background: linear-gradient(135deg, var(--moss), #8fdcc7); }
   .wall-tile:nth-child(6n+4){ background: linear-gradient(135deg, var(--blush-deep), var(--rose)); }
   .wall-tile:nth-child(6n+5){ background: linear-gradient(135deg, var(--plum), var(--rose-deep)); }
   .wall-tile:nth-child(6n){ background: linear-gradient(135deg, #d8a657, var(--rose)); }
   .wall-tile.locked{
-    background: repeating-linear-gradient(135deg, #d9d2d5, #d9d2d5 8px, #cfc6ca 8px, #cfc6ca 16px);
+    background: repeating-linear-gradient(135deg, #dceef5, #d9d2d5 8px, #c9e3ee 8px, #cfc6ca 16px);
     cursor: default;
     opacity: 0.75;
   }

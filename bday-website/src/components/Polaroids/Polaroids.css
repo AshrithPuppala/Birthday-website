@@ -19,7 +19,7 @@
     transform: translateX(-50%) rotate(-4deg);
     width: 56px;
     height: 22px;
-    background: repeating-linear-gradient(135deg, var(--gold), var(--gold) 6px, #e8bd7a 6px, #e8bd7a 12px);
+    background: repeating-linear-gradient(135deg, var(--gold), var(--gold) 6px, #f5cc6b 6px, #f5cc6b 12px);
     opacity: 0.85;
     z-index: 4;
     box-shadow: 0 2px 4px rgba(0,0,0,0.15);

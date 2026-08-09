@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { TreasureHuntProvider, useTreasureHunt } from './components/ButterflyHunt/TreasureHuntContext';
 import ButterflyHunt from './components/ButterflyHunt/ButterflyHunt';
+import WaveBackground from './components/WaveBackground/WaveBackground';
 import AmbientLayer from './components/AmbientLayer/AmbientLayer';
 import PasscodeGate from './components/PasscodeGate/PasscodeGate';
 import IntroAnimation from './components/IntroAnimation/IntroAnimation';
@@ -29,6 +30,7 @@ function SiteContent({ unlocked, onUnlock }) {
 
   return (
     <>
+      <WaveBackground />
       <AmbientLayer />
       <PasscodeGate unlocked={unlocked} onUnlock={onUnlock} />
 
