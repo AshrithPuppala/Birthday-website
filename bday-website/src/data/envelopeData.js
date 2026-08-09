@@ -3,21 +3,21 @@ export default [
   {
     "seal": "💌",
     "label": "Open when you need a laugh",
-    "text": "[Write something funny or a memory that always makes them laugh]"
+    "text": "Think about Naman like literally"
   },
   {
     "seal": "🌙",
-    "label": "Open when you miss me",
-    "text": "[A comforting note for when you're apart]"
+    "label": "Open when you miss us",
+    "text": "You are literally stuck with us like super glue for the rest of our lives no matter where life takes us we are always there for you"
   },
   {
     "seal": "🕛",
     "label": "Open at midnight",
-    "text": "[A sweet, sincere note]"
+    "text": "Happy Birthdayyyyy Felixiaa. thank you for being you always"
   },
   {
     "seal": "🔥",
     "label": "Open when you need a hype speech",
-    "text": "[Write an encouraging, hype-you-up message]"
+    "text": "You are genuinely one of the most dedicated, hardworking, smart and pavam person we know. never stop being you and trust us you are gonna achieve so muuch in lifeee. please fund the rest of our broke asses"
   }
 ];
