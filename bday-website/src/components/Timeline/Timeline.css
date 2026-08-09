@@ -12,7 +12,7 @@
   }
   .t-item.in-view{ opacity: 1; transform: translateY(0); }
   .t-item::before{
-    content: "\1F98B";
+    content: "\1F41A";
     position: absolute;
     left: -46px;
     top: -2px;
