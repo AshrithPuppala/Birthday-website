@@ -87,8 +87,8 @@ function QuizResult({ score, total, onShown }) {
       </div>
       <p>
         {score === total
-          ? 'Ofc you got everything rightttt, Sugu the smarty'
-          : 'What is this behaviour Sugandha, expected better'}
+          ? '[Playful message for a perfect score]'
+          : '[Playful message for a not-quite-perfect score]'}
       </p>
     </div>
   );

@@ -12,9 +12,9 @@ export default function IntroAnimation() {
       <h1>
         Happy Birthday,
         <br />
-        <span>Sugandha (aka Ms. Nautanki)</span> &#127807;
+        <span>[Friend's Name]</span> &#127807;
       </h1>
-      <p className="sub">Omgggg your 19 years now. Sit back and enjoy this experience</p>
+      <p className="sub">[A short, warm subtitle line goes here]</p>
       <div className="scroll-hint">&#8595; scroll for the whole story &#8595;</div>
       <SecretSpot id="s1" />
     </section>

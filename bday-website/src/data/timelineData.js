@@ -1,22 +1,53 @@
-// Auto-extracted from original site data
+// Timeline entries - replace with your own memories
 export default [
-  { date: "[23-06-23]", title: "The First Text", text: "Who knew that that one text would start such an unforgettable journey" },
-  { date: "[5-09-23]", title: "The First Hangout", text: "The frozen bottle quest after teacher's day celebrations" },
-  { date: "[13-10-23]", title: "The Mad Bowling", text: "The day you were mad at me and wouldn't talk" },
-  { date: "[25-11-23]", title: "Meraki", text: "The beautiful butterfly painting day" },
-  { date: "[21-12-23]", title: "The Christmas Program", text: "You running around for practice, Lulu Mall, dashing cars and that obstacle course" },
-  { date: "[1-02-24]", title: "The Spectrometer", text: "The sheer joy of proving Sundi wrong and the hil top reveal at Amegundi" },
-  { date: "[3-02-24]", title: "Aurum", text: "Our fest fest as organisers" },
-  { date: "[29-06-24]", title: "THE Transcendence", text: "The fest that had everything" },
-  { date: "[14-11-24]", title: "Children's Day", text: "The twinning outfits didn't help the rumours" },
-  { date: "[14-12-22]", title: "Grameena Utsav", text: "The Pink Black outfits were an absolute blast" },
-  { date: "[20-12-24]", title: "PHENOMENON", text: "Nothing can describe our feelings during this fest, arguably our best moments in school" },
-  { date: "[26-01-25]", title: "Valedictory", text: "The Valedictorian moment ( so proud of you)" },
-  { date: "[15-03-25]", title: "The Holi Party", text: "Those were the days when we treated preparation holidays as a vacation " },
-  { date: "[30-03-25]", title: "Adieu", text: "The last day in school as students" },
-  { date: "[15-07-25]", title: "The VIT meetup", text: "Same clg mates for a week" },
-  { date: "[30-09-25]", title: "Garba 2.O", text: "The Garba with your cousins " },
-  { date: "[24-10-25]", title: "The Art Museum", text: "The Museum trip before we went to Naman's Bday" },
-  { date: "[20-12-25]", title: "Soul Jams", text: "Us trying our best to meet in between my exams" },
-  { date: "[Countless]", title: "The Magical Moments", text: "The numerous moments we spent together, each one was truly special" },
+  {
+    "date": "[Date 1]",
+    "title": "How We Met",
+    "text": "[Describe the first time you met]"
+  },
+  {
+    "date": "[Date 2]",
+    "title": "First Hangout",
+    "text": "[Describe a memorable early hangout]"
+  },
+  {
+    "date": "[Date 3]",
+    "title": "An Inside Joke Begins",
+    "text": "[The story behind an inside joke]"
+  },
+  {
+    "date": "[Date 4]",
+    "title": "A Fun Trip",
+    "text": "[Describe a trip or outing you took together]"
+  },
+  {
+    "date": "[Date 5]",
+    "title": "A Milestone",
+    "text": "[A big moment you shared]"
+  },
+  {
+    "date": "[Date 6]",
+    "title": "A Silly Memory",
+    "text": "[Something that always makes you both laugh]"
+  },
+  {
+    "date": "[Date 7]",
+    "title": "A Proud Moment",
+    "text": "[Something you're proud of them for]"
+  },
+  {
+    "date": "[Date 8]",
+    "title": "A Tough Time You Got Through",
+    "text": "[A hard moment you supported each other through]"
+  },
+  {
+    "date": "[Date 9]",
+    "title": "Another Great Memory",
+    "text": "[Add another memory here]"
+  },
+  {
+    "date": "[Countless]",
+    "title": "The Magical Moments",
+    "text": "The numerous moments we spent together, each one was truly special"
+  }
 ];

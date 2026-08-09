@@ -23,21 +23,10 @@ export default function Finale() {
       <div id="gift-content" style={{ display: open ? 'block' : 'none' }}>
         <h3>Heartfelt Letter</h3>
         <p>
-          So where do I begin, its been over 3 years since we met, this journey has been
-          nothing but wonderful. Right from those initial days you have been that person who
-          has always been there for me no matter what. Be it helping me write a speech,
-          listening to my day, my rants ....and what not. You have become such an integral
-          part of my life that a day without speaking to you feels incomplete. As they say few
-          bonds are never meant to be broken, ours is the perfect example. Even different
-          cities couldn't stop us from speaking to each other literally every single day. You
-          are that one person who has celebrated my success probably more than I have myself.
-          You are the first friend I speak to when anything happens, being it good or bad. The
-          way we bully each other and at the same time stand by each other is iconic. I love
-          the fact that our conversations are literally about anything and everything. We
-          could just be on a call without talking and yet we wouldn't be bored. Thank you so
-          much for being the best friend I could I have ever asked for. HAVE A WONDERFUL DAY
-          AND YEAR FULL OF SUCCESS AND HAPPINESS. HAPPY BIRTHDAY SUGU or I would rather say
-          Ms.Nautanki Pro Maxxxxxx. &#10024;&#129430;&#127995;
+          [Write your heartfelt birthday letter here. Talk about how you met, what your
+          friendship means to you, a few specific memories, and whatever you want them to
+          know on their birthday. This is the big emotional finale of the site, so give it
+          the space it deserves - it can be as long as you want.]
         </p>
       </div>
     </section>

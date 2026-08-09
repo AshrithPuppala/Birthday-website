@@ -38,8 +38,8 @@ export default function PasscodeGate({ unlocked, onUnlock }) {
         <span className="flower-icon">&#127800;</span>
         <h1>A secret is waiting</h1>
         <p>
-          Enter the day we first texted to unlock <span className="script"></span>'s
-          birthday surprise &#127882;
+          Enter [the passcode hint - e.g. a date, place, or inside joke] to unlock{' '}
+          <span className="script">[Friend's Name]</span>'s birthday surprise &#127882;
         </p>
         <input
           type="text"

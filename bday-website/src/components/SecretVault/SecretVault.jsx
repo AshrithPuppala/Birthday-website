@@ -20,9 +20,7 @@ export default function SecretVault() {
     <section id="vault-section" ref={ref} style={{ display: 'block' }}>
       <div className="tag">you found them all</div>
       <h2>The Secret Vault</h2>
-      <p>
-        https://drive.google.com/file/d/1FXT5z0ylFU51M5ypkTfcKE0nMV0Gjbh6/view?usp=sharing
-      </p>
+      <p>[Link or content to reveal after they find all the hidden butterflies]</p>
     </section>
   );
 }

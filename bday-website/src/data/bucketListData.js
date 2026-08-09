@@ -1,10 +1,10 @@
-// Auto-extracted from original site data
+// Things you still want to do together - replace with your own list
 export default [
-  "Go on a trip together",
-  "Paint a canvas together",
-  "Build a start-up or a research paper together ",
-  "Go trekking/smtg adventurous",
-  "Make a short film",
-  "Attend a Karaoke",
-  "Write a letter to be opened after a year",
+  "[Bucket list item #1]",
+  "[Bucket list item #2]",
+  "[Bucket list item #3]",
+  "[Bucket list item #4]",
+  "[Bucket list item #5]",
+  "[Bucket list item #6]",
+  "[Bucket list item #7]"
 ];

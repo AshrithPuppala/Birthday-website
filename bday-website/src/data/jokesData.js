@@ -1,8 +1,8 @@
-// Auto-extracted from original site data
+// Inside jokes shown when the flower is clicked - replace with your own
 export default [
-  "You are the real Nautanki Pro Max",
-  "Our streak that no one can know about",
-  "Sitting on the phenomenon stage and crying our hearts out",
-  "Our shopping mall reel( we should lowkey recreate)",
-  "Getting offered money for the start-up that didnt exist",
+  "[Insert inside joke #1]",
+  "[Insert inside joke #2]",
+  "[Insert inside joke #3]",
+  "[Insert inside joke #4]",
+  "[Insert inside joke #5]"
 ];

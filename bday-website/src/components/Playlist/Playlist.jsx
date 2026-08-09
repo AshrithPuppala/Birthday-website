@@ -20,7 +20,7 @@ export default function Playlist() {
           loading="lazy"
         />
         <p style={{ opacity: 0.7, fontSize: '0.85rem', marginTop: 8 }}>
-          https://open.spotify.com/playlist/216MBRf6bgVNT8pKsfyyqY
+          [Paste a link to your playlist here]
         </p>
       </div>
     </section>
