@@ -1,16 +1,16 @@
 // "How well do you know us" quiz - replace questions/options/answers
 export default [
   {
-    "q": "Question 1: Where did we first meet?",
+    "q": "Question 1: Who is your bestfriend? ",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C"
+      "Esha Sudarshan",
+      "Naman Agarwal",
+      "Ashrith Puppala"
     ],
     "correct": 0
   },
   {
-    "q": "Question 2: What's my favorite [thing]?",
+    "q": "Question 2: ",
     "options": [
       "Option A",
       "Option B",
