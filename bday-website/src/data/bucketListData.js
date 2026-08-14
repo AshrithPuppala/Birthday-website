@@ -1,10 +1,10 @@
 // Things you still want to do together - replace with your own list
 export default [
-  "[Bucket list item #1]",
-  "[Bucket list item #2]",
-  "[Bucket list item #3]",
-  "[Bucket list item #4]",
-  "[Bucket list item #5]",
-  "[Bucket list item #6]",
-  "[Bucket list item #7]"
+  "[GO ON A TRIP TOGETHER(Literally anywhere)]",
+  "[Pull an all nighter on call doing random bullshit]",
+  "[Put makeup on Ashrith and Naman]",
+  "[Prank Laksh (if we succeed we dont need anything else from lifee)]",
+  "[Bake together]",
+  "[Do atleast ONE PROPER HACKATHON]",
+  "[Go back to schl as the chief guests]"
 ];
