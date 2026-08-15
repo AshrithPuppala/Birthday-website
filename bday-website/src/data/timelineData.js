@@ -12,7 +12,7 @@ export default [
   },
   {
     "date": "24/08/23",
-    "title": "An Inside Joke Begins",
+    "title": "An Internal Joke Begins",
     "text": "LTC - Egnitus Internal"
   },
   {
