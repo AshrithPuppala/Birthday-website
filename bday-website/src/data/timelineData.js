@@ -36,17 +36,12 @@ export default [
     "text": "Arcanum 2024"
   },
   {
-    "date": "[Date 8]",
-    "title": "A Tough Time You Got Through",
-    "text": "[A hard moment you supported each other through]"
-  },
-  {
-    "date": "[Date 9]",
+    "date": "21/12/24",
     "title": "Another Great Memory",
-    "text": "[Add another memory here]"
+    "text": "Post Phenomenon Terrace View"
   },
   {
-    "date": "[Countless]",
+    "date": "Countless",
     "title": "The Magical Moments",
     "text": "The numerous moments we spent together, each one was truly special"
   }
