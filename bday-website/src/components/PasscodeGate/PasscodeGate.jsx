@@ -39,7 +39,6 @@ export default function PasscodeGate({ unlocked, onUnlock }) {
         <h1>A secret is waiting</h1>
         <p>
           When was the first time we went out (all 4 of us)?
-          <span className="script">Tulipciaaa</span>'s birthday surprise &#127882;
         </p>
         <input
           type="text"
