@@ -1,7 +1,7 @@
 // "How well do you know us" quiz - replace questions/options/answers
 export default [
   {
-    "q": "Question 1: Who is your bestfriend? ",
+    "q": "Question 1: Who is your best friend? ",
     "options": [
       "Esha Sudarshan",
       "Naman Agarwal",
@@ -10,38 +10,38 @@ export default [
     "correct": 0
   },
   {
-    "q": "Question 2: ",
+    "q": "Why did we drag Ashrith and Naman to the top of the hill ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C"
-    ],
-    "correct": 1
-  },
-  {
-    "q": "Question 3: Where did we take our first photo together?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C"
-    ],
-    "correct": 2
-  },
-  {
-    "q": "Question 4: What's an inside joke between us about?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C"
+      "To admire the view",
+      "To tell them about the video",
+      "To tell them about more work"
     ],
     "correct": 0
   },
   {
-    "q": "Question 5: What was our first trip together?",
+    "q": "What is the best nickname?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C"
+      "Optimus Prime",
+      "Felixiaa",
+      "Tulipciaa"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "why was acoustic formed?",
+    "options": [
+      "To prove sundi wrong",
+      "To get marks in the physics project",
+      "To do velagiri"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Who was the best couple to third wheel?",
+    "options": [
+      "AshFel",
+      "AshFel",
+      "AshFel"
     ],
     "correct": 1
   }
